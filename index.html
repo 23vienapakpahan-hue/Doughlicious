@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doughlicious - Adorable & Delicious Baked Goods</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Handlee:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Doughlicious</div>
+        <nav class="desktop-nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#produk">Products</a></li>
+                <li><a href="#review">Reviews</a></li>
+                <li><a href="#qna">Q&A</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="menu-toggle" aria-label="Toggle Menu">&#9776;</button>
+        <nav class="mobile-nav" id="mobile-menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#produk">Products</a></li>
+                <li><a href="#review">Reviews</a></li>
+                <li><a href="#qna">Q&A</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section fade-in">
+            <div class="hero-content">
+                <h1>Doughlicious! The Cutest & Tastiest Treats</h1>
+                <p>Experience adorable, uniquely shaped breads and beautiful cakes with the perfect level of sweetness.</p>
+                <a href="#produk" class="cta-button pulse-animation">Shop Now!</a>
+            </div>
+            <div class="hero-image-container">
+                <img src="images/hero-image.jpg.png"Illustration of various cute Doughlicious breads and cakes" class="tilt-animation">
+            </div>
+        </section>
+
+        <section id="about" class="about-section scroll-reveal">
+            <h2>About Doughlicious ✨</h2>
+            <p>We are here to deliver joy in every bite. Our specialty lies in **unique, adorable animal-shaped breads** and **beautifully decorated cakes** with a balanced, non-overpowering sweetness—perfect for East Asian palates. Every item is handcrafted with love and premium ingredients.</p>
+        </section>
+
+        <section id="produk" class="produk-section">
+            <h2>Our Adorable Products 🍞🎂</h2>
+            <div class="produk-grid">
+                <div class="produk-item scroll-reveal">
+                    <img src="images/Kawaii Panda Bun.jpg"Cute animal-shaped bread">
+                    <h3>Kawaii Panda Bun</h3>
+                    <p class="desc">Soft, fluffy bread filled with rich, melting chocolate. Almost too cute to eat!</p>
+                    <span class="price">¥ 850 / ₩ 8,500</span>
+                    <button class="buy-item">Buy</button>
+                </div>
+                <div class="produk-item scroll-reveal delay-1">
+                    <img src="images/Little Flower Cake (1).png" alt="Mini cake with flower decorations">
+                    <h3>Little Flower Cake</h3>
+                    <p class="desc">Light vanilla cake with elegant buttercream flower decor. Just the right amount of sweetness.</p>
+                    <span class="price">¥ 1,800 / ₩ 18,000</span>
+                    <button class="buy-item">Buy</button>
+                </div>
+                <div class="produk-item scroll-reveal delay-2">
+                    <img src="images/Rainbow Mini Donuts.jpg" alt="Colorful donuts">
+                    <h3>Rainbow Mini Donuts</h3>
+                    <p class="desc">Soft, pillowy donuts with bright, colorful glaze. Perfect for a happy mood!</p>
+                    <span class="price">¥ 700 / ₩ 7,000</span>
+                    <button class="buy-item">Buy</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="review" class="review-section scroll-reveal">
+            <h2>What Our Customers Say 🥰</h2>
+            <div class="review-card">
+                <p>"The bread is too cute! I almost couldn't eat it, but it was so delicious and the filling was generous!"</p>
+                <p class="reviewer">- Sakura, Tokyo</p>
+            </div>
+             <div class="review-card">
+                <p>"The birthday cake design was so elegant and not overly sweet. My whole family loved it!"</p>
+                <p class="reviewer">- Jisoo, Seoul</p>
+            </div>
+        </section>
+
+        <section id="qna" class="qna-section scroll-reveal">
+            <h2>Questions & Answers (Q&A) ❓</h2>
+            <div class="qna-item">
+                <button class="accordion">Can I request a custom bread design?</button>
+                <div class="panel">
+                    <p>Yes, we accept custom orders! Please contact us via the Contact section for detailed requirements. We recommend booking custom orders 3 days in advance.</p>
+                </div>
+            </div>
+            <div class="qna-item">
+                <button class="accordion">How long does shipping take?</button>
+                <div class="panel">
+                    <p>It depends on your location. For ready-stock items, shipping usually takes 1-3 days within major cities in Japan/Korea. Custom orders require an extra day for production.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="kontak" class="kontak-section scroll-reveal">
+            <h2>Contact Us 💌</h2>
+            <p>Have questions or want to place a custom order? Get in touch!</p>
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Doughlicious. All Rights Reserved.</p>
+        <div class="social-icons">
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" aria-label="Tiktok"><i class="fab fa-tiktok"></i></a>
+        </div>
+    </footer>
+
+    <a href="#produk" class="buy-now-mobile pulse-animation">Buy Now! 🛍️</a>
+
+    <script src="script.js"></script>
+</body>
+</html>
